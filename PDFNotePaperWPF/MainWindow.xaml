@@ -22,7 +22,7 @@
         <Button Content="Durchsuchen" Margin="0,52,10,0" Click="btnSelectTargetFolder_Click" Grid.Column="1" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75"/>
 
 
-        <ListBox Name="lbFiles" Margin="0,161,0,41" IsEnabled="False" ScrollViewer.CanContentScroll="True" Grid.ColumnSpan="2"/>
+        <ListBox Name="lbFiles" Margin="0,161,0,41" IsEnabled="True" ScrollViewer.CanContentScroll="True" Grid.ColumnSpan="2"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="6,135,0,0" Text="Zu bearbeitende Dateien auswählen:"/>
         <Button Content="Konvertieren" Margin="0,0,10,7" Click="btnConvert_Click" Grid.Column="1" HorizontalAlignment="Right" Width="75" Height="25" VerticalAlignment="Bottom"/>
         <Button Content="Durchsuchen" Margin="210,130,0,0" Click="btnSelectFiles_Click" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75"/>
